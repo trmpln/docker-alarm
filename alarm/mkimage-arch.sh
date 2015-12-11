@@ -52,7 +52,7 @@ case "$(uname -m)" in
 		PACMAN_CONF='./mkimage-archarm-pacman.conf'
 		PACMAN_MIRRORLIST='Server = http://mirror.archlinuxarm.org/$arch/$repo'
 		PACMAN_EXTRA_PKGS='archlinuxarm-keyring'
-		EXPECT_TIMEOUT=180
+		EXPECT_TIMEOUT=300
 		ARCH_KEYRING=archlinuxarm
 		DOCKER_IMAGE_NAME=archlinuxarm
 		;;
